@@ -1,7 +1,8 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial, sans-serif';
     margin: 0;
     padding: 0;
+    background-color: rgb(254, 255, 236);
   }
   
   header {
@@ -12,27 +13,89 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('/public/images/bostonuniversity.jpg') repeat center 200% fixed;
+    background: url('/public/images/bostonuniversity.jpg') repeat center 100% fixed;
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
   }
 
+  footer{
+    background-color: rgb(185, 187, 157);
+    padding-left: 80px;
+    padding-right: 80px;  
+    text-align: left;
+  }
+
   section {
-    padding: 20px;
-    margin: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0px;
   }
 
   div {
-    border: 1px solid;
+    overflow: auto;
   }
 
-  pre {
+  p {
     font-family: "Montserrat";
+    line-height: 1.5;
+  }
+
+  .info {
+    padding-top: 20px;
+    height: auto;
+    font-family: "Montserrat";
+    font-size: 25px;
+    line-height: 0.5;
+  }
+
+  .secs{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    height: 700px;
+    margin-bottom: 40px;
   }
   
+  .paper-preview{
+    overflow: auto;
+    margin-bottom: 10px;
+    width: 700px;
+  }
+
+  .unit{
+    overflow: auto;
+    width: 700px;
+    min-width: 700px;
+  }
+
+  .downloads{
+    font-family: "Montserrat"
+  }
+
+  #headshot {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-left: 0px;
+    margin-right: 40px;
+  }
+  
+  h1 {
+    color: #282c34;
+    font-size: 40px;
+    font-family: "Montserrat"
+  }
   
   h2 {
     color: #282c34;
+    font-size: 30px;
+    font-family: "Montserrat"
+  }
+
+  h3 {
+    color: #3e777c;
+    font-size: 20px;
+    font-family: "Montserrat"
   }
   
   #title{
