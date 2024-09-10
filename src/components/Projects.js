@@ -6,11 +6,104 @@ const Projects = () => {
       <h1>My Work</h1>
       <h2>Computer and Data Science Projects</h2>
       <div className="secs">
-        <p>Description of project 1.</p>
+
+        <div className='unit'>
+          <h3>Credit Card Fraud Analysis</h3>
+          <div>
+            <img src="/images/creditcard.png" alt="credit card picture" />
+          </div>
+          <div>
+              <a href="https://github.com/enochngan/credit_card_fraud_analysis/blob/main/Credit%20Card%20Dataset%20Analysis.ipynb" download className="downloads" target="_blank">
+                Download Project
+              </a>
+              <p> Aug 2024</p>
+              <p><b>Skills Used:</b> SQL, Python, pandas, matplotlib, seaborn, Jupyter Notebooks
+              </p>
+              <p>
+              In this project, "Credit Card Dataset Analysis," I aim to analyze credit card fraud trends using a dataset of 568,630 
+              transactions made by European cardholders in 2023. I utilize SQL for data manipulation and analysis, along with Python 
+              libraries such as Seaborn and Matplotlib for visualizing the results. I focuses on identifying use cases, shortcomings, 
+              and patterns in fraud detection by analyzing anonymized predictive features and transaction classes. 
+              </p>
+            </div>
+        </div>
+
+        <div className='unit'>
+          <h3>Weather and Map Locator Website</h3>
+          <div>
+            <img src="/images/weather.png" alt="weather"/>
+          </div>
+          <div>
+              <a href="https://github.com/enochngan/weather-app/blob/main/index.html" download className="downloads" target="_blank">
+                Download Project
+              </a>
+              <p> Aug 2024</p>
+              <p><b>Skills Used:</b> Front-end Development, JavaScript, HTML, CSS, Restful APIs
+              </p>
+              <p>
+              In this project, "Weather and Map Locator," I use RESTful APIs to retrieve the weather and location of a user-entered city. This project uses JavaScript, HTML, and CSS to build the website.   
+              </p>
+            </div>
+        </div>
+
+        <div className='unit'>
+          <h3>Degree Distributions of Busiest Airports</h3>
+          <div>
+            <img src="/images/airport.jpg" alt="airport"/>
+          </div>
+          <div>
+              <a href="https://github.com/enochngan/busiest-airports-degree-distribution/blob/main/README.md" download className="downloads" target="_blank">
+                Download Project
+              </a>
+              <p> Mar-May 2024</p>
+              <p><b>Skills Used:</b> Rust, Degree Distribution
+              </p>
+              <p>
+              In this project, I analyzed the busiest airports by using degree distribution to quantify airport connectivity based on routes. I demonstrated my ability to process large datasets, analyze network statistics, and implement graph algorithms like Breadth-First Search for finding the shortest path between airports. The project highlights my expertise in Rust and graph theory applied to real-world transportation data.
+              </p>
+            </div>
+        </div>
+
+        <div className='unit'>
+          <h3>Predicting Heart Attacks Model</h3>
+          <div>
+            <img src="/images/heartattack.png" alt="heartattackpredictions"/>
+          </div>
+          <div>
+              <a href="https://github.com/enochngan/heart-attack-predictions/blob/main/Heart%20Attack%20Predictions%20-%20DT%2C%20LR%2C%20KNN.ipynb" download className="downloads" target="_blank">
+                Download Project
+              </a>
+              <p> Mar 2024</p>
+              <p><b>Skills Used:</b> Python, pandas
+              </p>
+              <p>
+                In this heart attack prediction project, I utilized decision trees, logistic regression, and k-nearest neighbors to develop machine learning models that predict heart attack likelihood. By handling a medical dataset, I demonstrated my skills in feature selection, model comparison, and evaluation using accuracy metrics. This project showcases my ability to apply data science techniques to real-world health data, creating valuable predictive tools.   
+              </p>
+            </div>
+        </div>
+
+        <div className='unit'>
+          <h3>AI 8-Puzzle Solver </h3>
+          <div>
+            <img src="/images/puzzle.png" alt="puzzle"/>
+          </div>
+          <div>
+              <a href="https://github.com/enochngan/eight-puzzle-artificial-intelligence-algorithm" download className="downloads" target="_blank">
+                Download Project
+              </a>
+              <p>Aug 2023</p>
+              <p><b>Skills Used:</b> Python, Breadth-First Search, Depth-First Search
+              </p>
+              <p>
+              In this project, I developed an artificial intelligence algorithm to solve random 8-puzzle games using five different algorithms, including A* and Breadth-First Search, achieving solutions in under 0.1 seconds. I demonstrated my expertise in AI problem-solving and algorithm optimization. This project showcases my ability to apply advanced search techniques in Python to solve complex computational puzzles efficiently.
+              </p>
+            </div>
+        </div>
       </div>
+      <p> <i>Scroll left for more projects. </i></p>
+
       <h2>Case and Consulting Studies</h2>
       <div className="secs">
-
           <div className='unit'>
             <h3> Directed Study: The Shift in Security Perception Post-9/11</h3>
             <div className="paper-preview">
@@ -88,7 +181,7 @@ const Projects = () => {
             </div>
           </div>
       </div>
-      <p> <i>Scroll for more projects </i></p>
+      <p> <i>Scroll left for more projects. </i></p>
       <br></br>
 
     </section>

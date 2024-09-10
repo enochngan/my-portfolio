@@ -35,6 +35,12 @@ body {
     overflow: auto;
   }
 
+  img {
+    overflow: auto;
+    margin-bottom: 10px;
+    width: 700px;    
+  }
+
   p {
     font-family: "Montserrat";
     line-height: 1.5;
