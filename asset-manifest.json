@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.ec42955a.css",
+    "main.js": "/my-portfolio/static/js/main.9f4389bb.js",
+    "static/media/bostonuniversity.jpg": "/my-portfolio/static/media/bostonuniversity.6b88590fe0eff7a271a0.jpg",
+    "index.html": "/my-portfolio/index.html",
+    "main.ec42955a.css.map": "/my-portfolio/static/css/main.ec42955a.css.map",
+    "main.9f4389bb.js.map": "/my-portfolio/static/js/main.9f4389bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec42955a.css",
+    "static/js/main.9f4389bb.js"
+  ]
+}
