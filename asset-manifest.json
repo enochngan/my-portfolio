@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.ec42955a.css",
-    "main.js": "/my-portfolio/static/js/main.7f025fa8.js",
+    "main.js": "/my-portfolio/static/js/main.cd4e36f7.js",
     "static/media/bostonuniversity.jpg": "/my-portfolio/static/media/bostonuniversity.6b88590fe0eff7a271a0.jpg",
     "index.html": "/my-portfolio/index.html",
     "main.ec42955a.css.map": "/my-portfolio/static/css/main.ec42955a.css.map",
-    "main.7f025fa8.js.map": "/my-portfolio/static/js/main.7f025fa8.js.map"
+    "main.cd4e36f7.js.map": "/my-portfolio/static/js/main.cd4e36f7.js.map"
   },
   "entrypoints": [
     "static/css/main.ec42955a.css",
-    "static/js/main.7f025fa8.js"
+    "static/js/main.cd4e36f7.js"
   ]
 }
