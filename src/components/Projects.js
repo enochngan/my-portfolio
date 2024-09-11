@@ -3,6 +3,8 @@ import React from 'react';
 const Projects = () => {
   return (
     <section>
+      <p> <i>If the images are having difficulties loading, please either refresh or wait, thank you!</i></p>
+
       <h1>My Work</h1>
       <h2>Computer and Data Science Projects</h2>
       <div className="secs">
