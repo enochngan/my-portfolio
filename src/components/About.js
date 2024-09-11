@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section>
       <div className="info">
-        <img id="headshot" src="/images/headshot.JPG" alt='Enoch Ngan'></img>
+        <img id="headshot" src="./images/headshot.JPG" alt='Enoch Ngan'></img>
         <h2>About Me</h2>
         <p>
           Welcome to my online portfolio. My name is Enoch Ngan and I am a junior studying Data Science 

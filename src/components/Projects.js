@@ -10,7 +10,7 @@ const Projects = () => {
         <div className='unit'>
           <h3>Credit Card Fraud Analysis</h3>
           <div>
-            <img src="/images/creditcard.png" alt="credit card picture" />
+            <img src="./images/creditcard.png" alt="creditcard"/>
           </div>
           <div>
               <a href="https://github.com/enochngan/credit_card_fraud_analysis/blob/main/Credit%20Card%20Dataset%20Analysis.ipynb" download className="downloads" target="_blank">
@@ -31,7 +31,7 @@ const Projects = () => {
         <div className='unit'>
           <h3>Weather and Map Locator Website</h3>
           <div>
-            <img src="/images/weather.png" alt="weather"/>
+            <img src="./images/weather.png" alt="weather"/>
           </div>
           <div>
               <a href="https://github.com/enochngan/weather-app/blob/main/index.html" download className="downloads" target="_blank">
@@ -49,7 +49,7 @@ const Projects = () => {
         <div className='unit'>
           <h3>Degree Distributions of Busiest Airports</h3>
           <div>
-            <img src="/images/airport.jpg" alt="airport"/>
+            <img src="./images/airport.jpg" alt="airport"/>
           </div>
           <div>
               <a href="https://github.com/enochngan/busiest-airports-degree-distribution/blob/main/README.md" download className="downloads" target="_blank">
@@ -67,7 +67,7 @@ const Projects = () => {
         <div className='unit'>
           <h3>Predicting Heart Attacks Model</h3>
           <div>
-            <img src="/images/heartattack.png" alt="heartattackpredictions"/>
+            <img src="./images/heartattack.png" alt="heartattack"/>
           </div>
           <div>
               <a href="https://github.com/enochngan/heart-attack-predictions/blob/main/Heart%20Attack%20Predictions%20-%20DT%2C%20LR%2C%20KNN.ipynb" download className="downloads" target="_blank">
@@ -85,7 +85,7 @@ const Projects = () => {
         <div className='unit'>
           <h3>AI 8-Puzzle Solver </h3>
           <div>
-            <img src="/images/puzzle.png" alt="puzzle"/>
+            <img src="./images/puzzle.png" alt="puzzle"/>
           </div>
           <div>
               <a href="https://github.com/enochngan/eight-puzzle-artificial-intelligence-algorithm" download className="downloads" target="_blank">
@@ -108,7 +108,7 @@ const Projects = () => {
             <h3> Directed Study: The Shift in Security Perception Post-9/11</h3>
             <div className="paper-preview">
               <iframe
-                src="/papers/directed_study.pdf"
+                src="./papers/directed_study.pdf"
                 title="Directed Study Preview"
                 width="100%"
                 height="300px"
@@ -117,6 +117,7 @@ const Projects = () => {
             </div>
             <div>
               <a href="/papers/directed_study.pdf" download className="downloads">
+            
                 Download Paper
               </a>
               <p> May-June 2024</p>
@@ -136,7 +137,7 @@ const Projects = () => {
             <h3> Capstone: Fixing the T</h3>
             <div className="paper-preview">
               <iframe
-                src="/papers/capstone.pdf"
+                src="./papers/capstone.pdf"
                 title="Capstone Preview"
                 width="100%"
                 height="300px"
@@ -161,7 +162,7 @@ const Projects = () => {
             <h3> Case Study: Amazon RxPass</h3>
             <div className="paper-preview">
               <iframe
-                src="/papers/rxpass.pdf"
+                src="./papers/rxpass.pdf"
                 title="RxPass Preview"
                 width="100%"
                 height="300px"
